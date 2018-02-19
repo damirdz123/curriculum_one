@@ -4,9 +4,7 @@
 }
 header{
     height: 100px;
-    background: linear-gradient(to right, rgb(255, 180, 170) 0%, rgb(255, 180, 170) 100%);
-    font-size: 2.5em;
-    color: white;
+    background-color: rgb(255, 180, 170);
     margin-bottom: 0.5em;
 }
 .accordion {
@@ -81,6 +79,37 @@ body{
     height: 20px;
     padding: 10px;
 }
+
+@media (max-width: 600px){
+    
+    main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+    
+    .logo1{
+    height: 80px;
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+
+    .logo2{
+    height: 15px;
+    padding: 5px;
+    margin-left: 1em;
+    position: relative;
+    
+}
+    
+    header{
+    margin-bottom: 2em;
+}
+
+    
+}
+    
+    
 
 
 
